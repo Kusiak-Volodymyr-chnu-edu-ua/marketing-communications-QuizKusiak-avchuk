@@ -32,7 +32,7 @@ class Question
 
   def load_answers(raw_answers)
     shuffled_answers = raw_answers.shuffle
-    @question_correct_answer = shuffled_answers.index(raw_answers.first)
+    @question_correct_answer = raw_answers.first
     @question_answers = shuffled_answers
   end
 

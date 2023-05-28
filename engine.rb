@@ -34,7 +34,7 @@ class Engine
   
     def get_answer_by_char(question)
       user_answer = @input_reader.read(welcome_message: 'Enter your answer:')
-      user_answer[0].upcase
+      question.find_answer_by_char(user_answer[0].upcase)
     end
   
     def check(user_answer, correct_answer)
