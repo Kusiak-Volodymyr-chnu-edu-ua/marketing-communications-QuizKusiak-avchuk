@@ -1,6 +1,3 @@
-require './models/user'
-require_relative 'message_sender'
-
 class MessageResponder
   attr_reader :message
   attr_reader :bot

@@ -1,7 +1,3 @@
-require 'logger'
-
-require_relative 'database_connector'
-
 class AppConfigurator
   def configure
     setup_i18n

@@ -1,6 +1,7 @@
 require 'yaml'
 require 'json'
 require 'pathname'
+require 'singleton'
 
 require_relative 'quiz'
 require_relative 'config'

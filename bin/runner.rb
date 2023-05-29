@@ -1,4 +1,4 @@
-require_relative '../libraries'
+require_relative '../lib/load_libraries'
 
 Quiz.instance.config do
     self.yaml_dir = '../quiz/yml'
@@ -7,7 +7,7 @@ Quiz.instance.config do
 end
 
 # TODO
-QuizBot.config do |quiz_bot|
+QuizBot.instance.config do |quiz_bot|
     quiz_bot.yaml_dir = '../quiz/yml'
     quiz_bot.log_dir = '../log'
 end

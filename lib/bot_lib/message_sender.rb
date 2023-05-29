@@ -1,6 +1,3 @@
-require_relative 'reply_markup_formatter'
-require_relative 'app_configurator'
-
 class MessageSender
   attr_reader :bot
   attr_reader :text

@@ -1,6 +1,3 @@
-require 'active_record'
-require 'logger'
-
 class DatabaseConnector
   class << self
     def establish_connection
