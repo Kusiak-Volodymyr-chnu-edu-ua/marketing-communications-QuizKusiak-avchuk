@@ -12,5 +12,5 @@ QuizBot.instance.config do |quiz_bot|
     quiz_bot.log_dir = '../log'
 end
 
-engine = Engine.new
+engine = EngineBot.new
 engine.run

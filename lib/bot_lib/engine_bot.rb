@@ -1,5 +1,3 @@
-
-
 class EngineBot
     def initialize
       @config = AppConfigurator.new
